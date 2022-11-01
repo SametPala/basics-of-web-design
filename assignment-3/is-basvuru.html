@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iş Başvuru Formu</title>
+</head>
+<body>
+    <table border="1">
+    <form>
+    <tr>
+        <th>Mayete Taşımaçılık</th>
+        <th colspan="3" width="500" >İŞ BAŞVURU FORMU</th>
+    </tr>
+        <td colspan="4" height="25" colspan="2" align="center" > <b>KİŞİSEL BİLGİLER</b></td>
+    
+    <tr>
+        <td ><label for="adsoyad"><b>Adınız Soyadınız:</b></label></td>
+        <td width="100" align="center" ><input type="text"id="adsoyad" placeholder="Adınızı Soyadınızı Giriniz..." ></td>
+        <td rowspan="2" height="150" align="center" >Vesikalık Fotoğrafınız<label for="dosya"></label> <input type="file"> </td>
+    </tr>    
+    <td><label for="cinsiyet"><b>Cinsiyetiniz:</b></label></td>
+        <td align="center" >
+        <label for="erkek">Erkek</label><input type="radio" id="erkek" name="cinsiyet">
+        <label for="kadın">Kadın</label><input type="radio" id="kadın" name="cinsiyet"></td>
+    <tr>
+        <td colspan="1"><label for="tc"><b>Tc Kimlik No:</b></label></td>
+        <td  width="100" colspan="2" align="center" ><input type="text" id="tc" placeholder="Tc..." ></td>
+    </tr>
+    <tr>
+        <td><label for="dogum"><b>Doğum Tarihi</b></label></td>
+        <td align="center" colspan="2" ><input type="date" id="dogum" ></td>
+    </tr>
+    <tr>
+        <td ><label for="tel"><b>Telefon Numarısı:</b></label></td>
+        <td  width="100" colspan="2" align="center" ><input type="text"id="tel" placeholder="Telefon Numarınızı Giriniz..." ></td>
+    </tr>
+    <tr>
+        <td><label for="eposta"><b>Eposta:</b></label></td>
+        <td width="100" colspan="2" align="center" ><input type="email" id="eposta" placeholder="Eposta Giriniz..."></td>
+    <tr>
+        <td><label for="medeni"><b>Medeni Durum:</b></label></td>
+        <td  width="100" colspan="2" align="center" >
+        <label for="medeni1">Evli</label><input type="radio" id="medeni1" name="medeni">
+        <label for="medeni2">Bekar</label><input type="radio" id="medeni2" name="medeni">
+        </td>
+    </tr>
+    <tr>
+        <td><label for="es"><b>Evli ise Eşinin Ad-Soyadın Mesleği:</b></label></td>
+        <td width="100" colspan="2" align="center" ><input type="text" id="es" placeholder="Evli ise Eşinin Ad-Soyadın Mesleği Giriniz..."></td>
+    <tr>
+    <tr>
+        <td><label for="cocuk"><b>Çocuk Sayısı:</b></label></td>
+        <td  width="100" colspan="2" align="center" >
+             <label for="cocuk1">0</label><input type="radio" id="cocuk1" name="cocuk">
+             <label for="cocuk2">1</label><input type="radio" id="cocuk2" name="cocuk">
+             <label for="cocuk3">2</label><input type="radio" id="cocuk3" name="cocuk">
+             <label for="cocuk4">3</label><input type="radio" id="cocuk4" name="cocuk">
+             <label for="cocuk5">4</label><input type="radio" id="cocuk5" name="cocuk">
+             <label for="cocuk6">+5</label><input type="radio"id="cocuk6"name="cocuk">
+    </tr>
+    <tr><td><label for="ehliyet"><b>Sürücü Ehliyeti:</b></label></td>
+        <td width="100" colspan="2" align="center">
+        <label for="ehliyet1">B sınıfı veya Üstü</label> <input type="radio" id="ehliyet1" name="ehliyet">
+        <label for="ehliyet2">Yok</label> <input type="radio" id="ehliyet2" name="ehliyet">
+    </tr>
+    <tr>
+        <td><label for="arac"><b>Araçlarınız</b></label></td>
+        <td colspan="2" align="center" >
+            <label for="arac">Motor</label><input type="checkbox" id="arac" name="arac" value="Motor">
+            <label for="arac1">Araba</label><input type="checkbox" id="arac1" name="arac1" value="Araba">
+            <label for="arac2">Kamyon</label><input type="checkbox" id="arac2" name="arac2" value="Kamyon">
+            <label for="arac3">Tekne</label><input type="checkbox" id="arac3" name="arac3" value="Tekne">
+            <label for="arac4">Bisiklet</label><input type="checkbox" id="arac4" name="arac4" value="Bisiklet">
+        </td>
+    </tr>
+    <tr>
+        <td><label for="sehir"><b>Hangi Şehirde Çalışmak İstersiniz?</b></label></td>
+        <td colspan="2" align="center" >
+            <select id="sehir">
+                <option>Seçiniz</option>
+                <option>Ankara</option>
+                <option>İstanbul</option>
+                <option>İzmir</option>
+                <option>Balıkesir</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <th align="center" colspan="3">ADLİ VE SAĞLIK BİLGİLERİ</th>
+    </tr>
+    <tr>
+        <td><label for="boy"><b>Boy cm</b></label> <input type="text" id="boy" > </td>
+
+        <td><label for="kilo"><b>Kilo</b></label> <input type="text" id="kilo" >  </td>
+
+        <td><label for="kan"><b>Kan Grubu</b></label> <input type="text" id="kan" >  </td>
+    </tr>
+    <tr>
+        <td><label for="intro"><b>Sağlık Sorunlarınızı Yazınız</b></label></td>
+        <td align="center" colspan="2" ><textarea name="" id="intro" cols="30" rows="10"></textarea></td>
+    </tr>
+    <tr>       
+        <td><label for="intro1"><b>Adli Sorunlarınızı Yazınız</b></label></td>
+        <td align="center" colspan="2" ><textarea name="" id="intro1" cols="30" rows="10"></textarea></td>
+    </tr>
+    <tr>       
+        <td><label for="istek"><b>Eklemek İstedikeriniz</b></label></td>
+        <td align="center" colspan="2" ><textarea name="" id="istek" cols="30" rows="10"></textarea></td>
+    </tr>
+    <tr>   
+        <td colspan="3" align="center" >
+        <button type="submit">Kaydet</button>
+        </td>
+    </tr>
+    </form>
+
+        
+
+        
+
+
+    </table>
+
+    
+    
+</body>
+</html>
